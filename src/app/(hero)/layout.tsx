@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
-import { ABeeZee } from 'next/font/google'
+// import { ABeeZee } from 'next/font/google'
 import Header from "../components/header";
 
-const inter=ABeeZee({
-    subsets:['latin'],
-    weight:"400"
-})
+// const inter=ABeeZee({
+//     subsets:['latin'],
+//     weight:"400"
+// })
 
 export const metadata: Metadata = {
   title: "Create Next App",
