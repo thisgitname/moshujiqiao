@@ -1,11 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function NotFound() {
   return (
     <div className="gradient text-white min-h-screen flex items-center not-found container mx-auto">
   <div className="container mx-auto p-4 flex flex-wrap items-center">
     <div className="w-full md:w-5/12 text-center p-4">
-      <img src="https://themichailov.com/img/not-found.svg" alt="Not Found" />
+      <Image src="https://themichailov.com/img/not-found.svg" alt="Not Found" width={400} height={300} />
     </div>
     <div className="w-full md:w-7/12 text-center md:text-left p-4">
       <div className="text-6xl font-medium">404</div>
